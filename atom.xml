@@ -4,7 +4,7 @@
   <title><![CDATA[Blarg]]></title>
   <link href="http://djbkd.github.io/atom.xml" rel="self"/>
   <link href="http://djbkd.github.io/"/>
-  <updated>2014-01-15T22:51:09-07:00</updated>
+  <updated>2014-01-15T22:59:58-07:00</updated>
   <id>http://djbkd.github.io/</id>
   <author>
     <name><![CDATA[Christopher Eckhardt]]></name>
@@ -18,7 +18,7 @@
     <link href="http://djbkd.github.io/blog/2014/01/15/experimentation/"/>
     <updated>2014-01-15T22:42:58-07:00</updated>
     <id>http://djbkd.github.io/blog/2014/01/15/experimentation</id>
-    <content type="html"><![CDATA[<h1>Where I avoid using &lsquo;hello world&rsquo;</h1>
+    <content type="html"><![CDATA[<h2>Where I avoid using &lsquo;hello world&rsquo;</h2>
 
 <p>Test test test, is this thing on?</p>
 
