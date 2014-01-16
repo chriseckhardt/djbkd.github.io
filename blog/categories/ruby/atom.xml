@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Ruby | Blarg]]></title>
+  <link href="http://djbkd.github.io/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://djbkd.github.io/"/>
+  <updated>2014-01-15T22:49:38-07:00</updated>
+  <id>http://djbkd.github.io/</id>
+  <author>
+    <name><![CDATA[Christopher Eckhardt]]></name>
+    <email><![CDATA[djbkd [at] dreamsofelectricsheep [dot] net]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Experimentation]]></title>
+    <link href="http://djbkd.github.io/blog/2014/01/15/experimentation/"/>
+    <updated>2014-01-15T22:42:58-07:00</updated>
+    <id>http://djbkd.github.io/blog/2014/01/15/experimentation</id>
+    <content type="html"><![CDATA[<h1>Where I avoid using &lsquo;hello world&rsquo;</h1>
+
+<p>Test test test, is this thing on?</p>
+
+<p>I do enjoy the Markdown language.</p>
+
+<p>I enjoy Clojure, too.</p>
+
+<p>```clojure example of Misaki static site generator in Clojure
+;; Define template options here
+; @layout  default
+; @title   home</p>
+
+<p>(defn page-header [[fs &amp; rs]]
+  [:div {:class &ldquo;page-header&rdquo;}
+   [:h1 [:span fs] rs]])</p>
+
+<p>(header
+  (:title site))
+(h2 &ldquo;The personal blog of Chris Eckhardt.&rdquo;)
+(p &ldquo;These ideas and statements are his</p>
+
+<pre><code> and not a reflection of his employer.")
+</code></pre>
+
+<p>;; Posts
+(page-header &ldquo;Entries&rdquo;)
+(post-list)
+(prev-next-page-link)</p>
+
+<p>;; Sample post tags
+(page-header &ldquo;Tags&rdquo;)
+(tag-list)
+```</p>
+
+<p>But, I actually type less with Markdown.</p>
+
+<p>Decisions, decisions.</p>
+]]></content>
+  </entry>
+  
+</feed>

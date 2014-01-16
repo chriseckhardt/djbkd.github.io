@@ -4,7 +4,7 @@
   <title><![CDATA[Blarg]]></title>
   <link href="http://djbkd.github.io/atom.xml" rel="self"/>
   <link href="http://djbkd.github.io/"/>
-  <updated>2014-01-15T22:40:15-07:00</updated>
+  <updated>2014-01-15T22:49:38-07:00</updated>
   <id>http://djbkd.github.io/</id>
   <author>
     <name><![CDATA[Christopher Eckhardt]]></name>
@@ -12,5 +12,69 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Experimentation]]></title>
+    <link href="http://djbkd.github.io/blog/2014/01/15/experimentation/"/>
+    <updated>2014-01-15T22:42:58-07:00</updated>
+    <id>http://djbkd.github.io/blog/2014/01/15/experimentation</id>
+    <content type="html"><![CDATA[<h1>Where I avoid using &lsquo;hello world&rsquo;</h1>
+
+<p>Test test test, is this thing on?</p>
+
+<p>I do enjoy the Markdown language.</p>
+
+<p>I enjoy Clojure, too.</p>
+
+<figure class='code'><figcaption><span>example of Misaki static site generator in Clojure</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+</pre></td><td class='code'><pre><code class='clojure'><span class='line'><span class="c1">;; Define template options here</span>
+</span><span class='line'><span class="c1">; @layout  default</span>
+</span><span class='line'><span class="c1">; @title   home</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">(</span><span class="kd">defn </span><span class="nv">page-header</span> <span class="p">[[</span><span class="nv">fs</span> <span class="o">&amp;</span> <span class="nv">rs</span><span class="p">]]</span>
+</span><span class='line'>  <span class="p">[</span><span class="ss">:div</span> <span class="p">{</span><span class="ss">:class</span> <span class="s">&quot;page-header&quot;</span><span class="p">}</span>
+</span><span class='line'>   <span class="p">[</span><span class="ss">:h1</span> <span class="p">[</span><span class="ss">:span</span> <span class="nv">fs</span><span class="p">]</span> <span class="nv">rs</span><span class="p">]])</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">(</span><span class="nf">header</span>
+</span><span class='line'>  <span class="p">(</span><span class="ss">:title</span> <span class="nv">site</span><span class="p">))</span>
+</span><span class='line'><span class="p">(</span><span class="nf">h2</span> <span class="s">&quot;The personal blog of Chris Eckhardt.&quot;</span><span class="p">)</span>
+</span><span class='line'><span class="p">(</span><span class="nf">p</span> <span class="s">&quot;These ideas and statements are his</span>
+</span><span class='line'><span class="s">     and not a reflection of his employer.&quot;</span><span class="p">)</span>
+</span><span class='line'><span class="c1">;; Posts</span>
+</span><span class='line'><span class="p">(</span><span class="nf">page-header</span> <span class="s">&quot;Entries&quot;</span><span class="p">)</span>
+</span><span class='line'><span class="p">(</span><span class="nf">post-list</span><span class="p">)</span>
+</span><span class='line'><span class="p">(</span><span class="nf">prev-next-page-link</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">;; Sample post tags</span>
+</span><span class='line'><span class="p">(</span><span class="nf">page-header</span> <span class="s">&quot;Tags&quot;</span><span class="p">)</span>
+</span><span class='line'><span class="p">(</span><span class="nf">tag-list</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>But, I actually type less with Markdown.</p>
+
+<p>Decisions, decisions.</p>
+]]></content>
+  </entry>
   
 </feed>
