@@ -41,4 +41,6 @@ I do enjoy the Markdown language.
 
 But, I actually type less with Markdown.
 
-Decisions, decisions.
+So I'll use OctoPress for now
+-----------------------------
+But I seriously need to fix this default theme business.
